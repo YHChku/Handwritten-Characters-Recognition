@@ -21,7 +21,7 @@ parser.add_argument("--lr", type=float, default=0.0001, help="Learning rate")
 
 parser.add_argument("--data_path", type=str, default='img', help="Path to dataset")
 parser.add_argument("--save_path", type=str, default='checkpoints', help="Path to save your checkpoints")
-parser.add_argument("--model_name", type=str, default='LeNet5', help="Model name. LeNet5 or AlexNet")
+parser.add_argument("--model_name", type=str, default='LeNet5')
 
 parser.add_argument("--momentum", type=float, default=0.9, help="SGD momentum (default: 0.9)")
 parser.add_argument("--weight_decay", type=float, default=5e-4, help="SGD weight decay (default: 5e-4)")
